@@ -32,7 +32,7 @@ body {
   font-family: "Roboto", "Raleway", serif;
   padding: 0;
   margin: 0;
-  min-width: 428px;
+  /* min-width: 428px; */
 }
 
 h1,
@@ -82,6 +82,7 @@ a,
 }
 
 .section {
+  outline: 1px solid aqua;
   margin-left: auto;
   margin-right: auto;
   background: #ffffff;
@@ -99,9 +100,11 @@ a,
 }
 
 .page-header {
+  margin-left: auto;
+  margin-right: auto;
   z-index: 1;
   position: relative;
-  min-width: 428px;
+  /* min-width: 428px; */
   height: 70px;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -109,7 +112,9 @@ a,
 }
 
 .container {
-  /* min-width: 428px; */
+  outline: 1px solid red;
+
+  /* width: 350px; */
   margin-left: auto;
   margin-right: auto;
   padding: 0px 16px;
@@ -673,7 +678,7 @@ a,
 
 .container.footer-section {
   display: flex;
-  min-width: 428px;
+  /* min-width: 428px; */
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -689,7 +694,7 @@ a,
 }
 
 .footer p {
-  width: 268px;
+  /* width: 268px; */
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -703,7 +708,7 @@ a,
 }
 
 .footer-social {
-  width: 208px;
+  /* width: 208px; */
   margin-bottom: 72px;
 }
 
@@ -750,7 +755,7 @@ a,
 }
 
 .mail-field {
-  width: 100%;
+  /* width: 100%; */
 }
 
 .mail-footer label {
@@ -991,7 +996,7 @@ a,
   right: 0;
   bottom: 0px;
   padding: 80px 40px 40px 40px;
-  min-width: 428px;
+  /* min-width: 428px; */
   background-color: #ffffff;
   box-shadow: 0px 2px 1px rgb(46 47 66 / 8%), 0px 1px 1px rgb(46 47 66 / 16%),
     0px 1px 6px rgb(46 47 66 / 8%);
@@ -1136,7 +1141,7 @@ a,
   }
 
   .mail-footer input {
-    width: 396px;
+    /* width: 396px; */
   }
 
   .mail-field input {
@@ -1395,7 +1400,7 @@ a,
   }
 
   .mail-footer input {
-    width: 264px;
+    max-width: 264px;
     margin-right: 24px;
   }
 
